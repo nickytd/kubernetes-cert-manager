@@ -5,7 +5,7 @@ This setup provisions a [cert-manager](https://github.com/jetstack/cert-manager)
 # helm chart dependencies
 * ```helm repo add jetstack https://charts.jetstack.io```
 
-[mkcert](https://github.com/FiloSottile/mkcert) tool can be used to facilitate creating SSL certificates for local development. The example here creates a cluster issuer of type CA, which is using such key and certificate.
+* [mkcert](https://github.com/FiloSottile/mkcert) tool can be used to facilitate creating SSL certificates for local development. The example here creates a cluster issuer of type CA, which is using such key and certificate.
 ```
 #initilize
 mkcert --install
