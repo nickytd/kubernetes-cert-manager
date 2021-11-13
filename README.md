@@ -17,4 +17,4 @@ mkcert "*.local.dev"
 # copy the key and certificate from the install location into the ssl dir
 # the location can be obtained with
 mkcert -CAROOT
-``
+```
